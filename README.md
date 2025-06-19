@@ -44,34 +44,6 @@ This project benchmarks deepfake detection systems using audio that has been del
 ![Photos](.Photos/File3.png)
 ![Photos](.Photos/File4.png)
 
-
-⸻
-
-📁 Project Structure
-
-📦 deepfake-audio-detector/
-│
-├── data/
-│   ├── raw_audio/
-│   ├── laundered/
-│   └── spectrograms/
-│
-├── models/
-│   └── saved_model.pth
-│
-├── scripts/
-│   ├── generate_graph.py
-│   ├── preprocess_laundering.py
-│   ├── train.py
-│   ├── evaluate_models.py
-│   └── visualize_results.py
-│
-├── config.yaml
-├── requirements.txt
-└── README.md
-
-(You can add more folders like notebooks, assets, pretrained, etc. as needed)
-
 ⸻
 
 ⚡ Quick Start
@@ -79,7 +51,7 @@ This project benchmarks deepfake detection systems using audio that has been del
 git clone [https://github.com/AishwaryaDekhane/deepfake-audio-detector.git](https://github.com/AishwaryaDekhane/DeepFake-Detection/tree/main)
 cd deepfake-audio-detector
 pip install -r requirements.txt
-python scripts/train_resnet.py
+python scripts/train.py
 
 
 ⸻
