@@ -40,9 +40,9 @@ This project benchmarks deepfake detection systems using audio that has been del
 ---
 ## ISSF Lab : https://issf.umd.umich.edu/home 
 ![Photos](Photos/File1.png)
-![Photos](.Photos/File2.png)
-![Photos](.Photos/File3.png)
-![Photos](.Photos/File4.png)
+![Photos](Photos/File2.png)
+![Photos](Photos/File3.png)
+![Photos](Photos/File4.png)
 
 ⸻
 
