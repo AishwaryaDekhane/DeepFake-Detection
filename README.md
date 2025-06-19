@@ -35,14 +35,14 @@ This project benchmarks deepfake detection systems using audio that has been del
 - 📁 Trained on ASVSpoof 2019 and curated public figures dataset
 - 🧪 Evaluated under 5 major laundering categories
 - 🔍 Generates visual plots and performance metrics
-- 🧠 Model: CNN-based architecture (ResNet-18)
+- 🧠 Model: CNN-based architecture
 
 ---
 ## ISSF Lab : https://issf.umd.umich.edu/home 
-![Photos](./File1.png)
-![Photos](./File2.png)
-![Photos](./File3.png)
-![Photos](./File4.png)
+![Photos](.Photos/File1.png)
+![Photos](.Photos/File2.png)
+![Photos](.Photos/File3.png)
+![Photos](.Photos/File4.png)
 
 
 ⸻
