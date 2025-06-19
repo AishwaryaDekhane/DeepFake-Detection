@@ -25,7 +25,7 @@ Spectrogram analysis helps detect deepfakes by visualizing frequency anomalies i
 
 ## 📌 Overview
 
-This project benchmarks deepfake detection systems using audio that has been deliberately distorted through various post-processing attacks. It evaluates models like **ResNet-18** on **spectrogram-transformed audio data** and emphasizes resilience under real-world distortions.
+This project benchmarks deepfake detection systems using audio that has been deliberately distorted through various post-processing attacks. It evaluates models on **spectrogram-transformed audio data** and emphasizes resilience under real-world distortions.
 
 ---
 
@@ -61,9 +61,9 @@ This project benchmarks deepfake detection systems using audio that has been del
 │   └── saved_model.pth
 │
 ├── scripts/
-│   ├── generate_spectrograms.py
+│   ├── generate_graph.py
 │   ├── preprocess_laundering.py
-│   ├── train_resnet.py
+│   ├── train.py
 │   ├── evaluate_models.py
 │   └── visualize_results.py
 │
@@ -77,7 +77,7 @@ This project benchmarks deepfake detection systems using audio that has been del
 
 ⚡ Quick Start
 
-git clone https://github.com/yourusername/deepfake-audio-detector.git
+git clone https://github.com/AishwaryaDekhane/deepfake-audio-detector.git
 cd deepfake-audio-detector
 pip install -r requirements.txt
 python scripts/train_resnet.py
@@ -94,7 +94,7 @@ python scripts/generate_spectrograms.py --input data/raw_audio --output data/spe
 python scripts/preprocess_laundering.py --input data/raw_audio --output data/laundered
 
 # Train model
-python scripts/train_resnet.py
+python scripts/train.py
 
 # Evaluate model
 python scripts/evaluate_models.py
@@ -111,7 +111,7 @@ Edit config.yaml to customize model or data parameters:
 
 data_dir: data/spectrograms
 model:
-  name: resnet18
+  name: Model
   epochs: 50
   lr: 0.0005
   batch_size: 32
@@ -150,7 +150,7 @@ pip install -r requirements.txt
 ⸻
 
 🛣️ Roadmap
-	•	Spectrogram-based deepfake classifier
+	•	Deepfake classifier
 	•	Full laundering attack simulations
 	•	Real-time deepfake detection (stream-based)
 	•	Web dashboard integration (Streamlit or Flask)
