@@ -38,8 +38,7 @@ This project benchmarks deepfake detection systems using audio that has been del
 - 🧠 Model: CNN-based architecture (ResNet-18)
 
 ---
-
-## ISSF Lab
+## ISSF Lab : https://issf.umd.umich.edu/home 
 ![Photos](./File1.png)
 ![Photos](./File2.png)
 ![Photos](./File3.png)
@@ -77,7 +76,7 @@ This project benchmarks deepfake detection systems using audio that has been del
 
 ⚡ Quick Start
 
-git clone https://github.com/AishwaryaDekhane/deepfake-audio-detector.git
+git clone [https://github.com/AishwaryaDekhane/deepfake-audio-detector.git](https://github.com/AishwaryaDekhane/DeepFake-Detection/tree/main)
 cd deepfake-audio-detector
 pip install -r requirements.txt
 python scripts/train_resnet.py
