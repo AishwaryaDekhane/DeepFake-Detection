@@ -26,6 +26,7 @@ Spectrogram analysis helps detect deepfakes by visualizing frequency anomalies i
 ## 📌 Overview
 
 This project benchmarks deepfake detection systems using audio that has been deliberately distorted through various post-processing attacks. It evaluates models on **spectrogram-transformed audio data** and emphasizes resilience under real-world distortions.
+Refer Lab Git Repo: https://github.com/issflab
 
 ---
 ![Photos](Photos/logo20.png)
